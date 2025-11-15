@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GÜL Zirai Drone - İlaçlama & Gübreleme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.svg" alt="GÜL Drone Logo" class="logo-img">
+                <span>GÜL Zirai Drone</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#videos">Videolar</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#about">Hakkında</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Zirai Drone Hizmetleri</h1>
+            <p>Modern teknoloji ile tarım alanlarınızı ilaçlayın ve gübreleyin</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/905427231753" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp'ta Ulaşın
+                </a>
+                <a href="#contact" class="btn btn-secondary">İletişim Formu</a>
+            </div>
+        </div>
+        <div class="drone-animation">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <!-- Drone Animation -->
+                <g id="drone" class="flying-drone">
+                    <ellipse cx="200" cy="100" rx="50" ry="30" fill="#2ecc71" opacity="0.3"/>
+                    <rect x="150" y="80" width="100" height="40" rx="20" fill="#27ae60"/>
+                    <circle cx="170" cy="70" r="8" fill="#2980b9"/>
+                    <circle cx="230" cy="70" r="8" fill="#2980b9"/>
+                    <circle cx="170" cy="110" r="8" fill="#2980b9"/>
+                    <circle cx="230" cy="110" r="8" fill="#2980b9"/>
+                    <!-- Rotors -->
+                    <g class="rotor" transform="translate(170, 70)">
+                        <circle r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+                    </g>
+                    <g class="rotor" transform="translate(230, 70)">
+                        <circle r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+                    </g>
+                    <g class="rotor" transform="translate(170, 110)">
+                        <circle r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+                    </g>
+                    <g class="rotor" transform="translate(230, 110)">
+                        <circle r="15" fill="none" stroke="#3498db" stroke-width="2"/>
+                    </g>
+                </g>
+                <!-- Ground -->
+                <rect y="250" width="400" height="50" fill="#8b7355"/>
+                <rect y="250" width="400" height="10" fill="#7cb342"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <h2>Drone İlaçlama Görüntüleri</h2>
+            <p class="video-intro">Teknolojimizin aksiyon halinde izleyin</p>
+            
+            <div class="videos-grid">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/y5QKVgKMJFo" 
+                            width="100%" 
+                            height="400" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen
+                            title="Tarım Dronu İlaçlama">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Drone İlaçlama Teknolojisi</h3>
+                        <p>Modern drone teknolojisi ile hassas ilaçlama uygulaması ve ekran görüntüleri</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/lNkQ0A6YVyk" 
+                            width="100%" 
+                            height="400" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen
+                            title="Tarım Dronu Gübreleme">
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Tarım Dronu Gübreleme</h3>
+                        <p>Profesyonel tarım dronu kullanımı, gübreleme ve ilaçlama uygulamaları</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Hizmetlerimiz</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Tarım İlaçlaması</h3>
+                    <p>Yüksek hassasiyetle tarım alanlarında haşere ve hastalık mücadelesi</p>
+                    <div class="animation-small">
+                        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                            <g class="spray-animation">
+                                <circle cx="100" cy="50" r="25" fill="#3498db"/>
+                                <line x1="100" y1="75" x2="100" y2="130" stroke="#7cb342" stroke-width="3"/>
+                                <circle cx="80" cy="120" r="3" fill="#e74c3c" opacity="0.7"/>
+                                <circle cx="100" cy="125" r="3" fill="#e74c3c" opacity="0.7"/>
+                                <circle cx="120" cy="120" r="3" fill="#e74c3c" opacity="0.7"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <h3>Gübreleme</h3>
+                    <p>Uygun doz ile bitkilere gerekli besin öğelerini ulaştırma</p>
+                    <div class="animation-small">
+                        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                            <g class="fertilizer-animation">
+                                <circle cx="100" cy="50" r="25" fill="#8b7355"/>
+                                <rect x="90" y="80" width="20" height="35" fill="#7cb342"/>
+                                <circle cx="100" cy="75" r="8" fill="#27ae60"/>
+                                <circle cx="100" cy="75" r="6" fill="#2ecc71"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Teknoloji</h3>
+                    <p>En son drone teknolojisi ile hassas uygulama ve izleme</p>
+                    <div class="animation-small">
+                        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                            <g class="tech-animation">
+                                <rect x="70" y="50" width="60" height="40" rx="5" fill="#34495e"/>
+                                <circle cx="85" cy="65" r="4" fill="#3498db"/>
+                                <circle cx="115" cy="65" r="4" fill="#3498db"/>
+                                <rect x="85" y="75" width="30" height="10" fill="#3498db"/>
+                                <circle cx="100" cy="100" r="6" fill="#2ecc71"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="about" class="location">
+        <div class="container">
+            <h2>Hakkımızda & Hizmet Bölgemiz</h2>
+            
+            <!-- About Content -->
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Tarımda Devrim Yaratmak</h3>
+                    <p class="intro-text">
+                        <strong>GÜL Zirai Drone</strong>, modern teknoloji ve köy hayatının deneyimini birleştirerek, 
+                        Çanakkale bölgesinin tarım sektörüne yeni bir boyut kazandırmaktadır.
+                    </p>
+
+                    <div class="services-description">
+                        <div class="service-detail">
+                            <h4><i class="fas fa-spray-can"></i> Hassas İlaçlama Teknolojisi</h4>
+                            <p>
+                                Drone teknolojisini kullanarak, bitkilere en düşük dozda ve en yüksek verimlilikle 
+                                ilaçlama hizmeti sunuyoruz. Hava koşullarına uyum sağlayan özel algoritmalarımız, 
+                                her santimetre kareyi eşit şekilde işleyerek haşere ve hastalık mücadelesini 
+                                maksimum etkinlikle gerçekleştirir. Geleneksel yöntemlere kıyasla %60 daha az 
+                                kimyasal kullanarak, çevre dostlu bir yaklaşım sağlıyoruz.
+                            </p>
+                        </div>
+
+                        <div class="service-detail">
+                            <h4><i class="fas fa-droplet"></i> İleri Gübreleme Çözümleri</h4>
+                            <p>
+                                Bitkilerin gelişme dönemlerine göre yapılandırılan gübreleme programımız, 
+                                tarla analizleri ve ürün ihtiyaçlarına dayanmaktadır. Drone tabanlı uygulamamız, 
+                                gübreyi eşit şekilde dağıtarak bitkilerin besin alımını optimize eder. 
+                                Bu sayede verim %40 oranında artarken, gübreleme maliyetleriniz %30 oranında azalmaktadır. 
+                                Kimyasal gübrelerden organik çözümlere kadar tüm seçenekleri destekliyoruz.
+                            </p>
+                        </div>
+
+                        <div class="service-detail">
+                            <h4><i class="fas fa-rocket"></i> Geleceğin Tarım Teknolojisi</h4>
+                            <p>
+                                Yapay zeka destekli harita oluşturma, gerçek zamanlı ürün izleme ve 
+                                veri analitikleri ile tarımınızı yönetiyoruz. Her bir uçuş sonrasında 
+                                detaylı raporlar sunan sistemimiz, sonraki mevsim planlamaları için 
+                                değerli istatistikler sağlar. Uydu görüntüleme teknolojisi ile 
+                                hastalıklı alanları erkenden tespit ederek, zararı minimize ediyoruz.
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="closing-text">
+                        <em>
+                            Çanakkale'nin bereketli topraklarında, teknoloji ve geleneğin uyumlu buluşmasını 
+                            sunan GÜL Zirai Drone, tarımcılarının en güvenilir ortağı olmayı hedeflemektedir.
+                        </em>
+                    </p>
+                </div>
+
+                <div class="about-map">
+                    <h3 style="margin-bottom: 1rem;">Hizmet Bölgesi</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.5434523456!2d26.206!3d40.123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b98d5c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2sTayfurk%C3%B6y%2C%20Gelibolu%2FCanakkale!5e0!3m2!1str!2str!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="location-info-card">
+                        <i class="fas fa-map-pin"></i>
+                        <div>
+                            <h4>Çanakkale / Gelibolu</h4>
+                            <p class="location-village">TAYFURKÖY Köyü</p>
+                            <p class="location-services">Tarım Drone İlaçlama & Gübreleme Hizmetleri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <a href="tel:+905427231753">+90 542 723 1753</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-Mail</h4>
+                            <a href="mailto:gulziraat1@gmail.com">gulziraat1@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/905427231753" class="contact-btn whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="#email-form" class="contact-btn email" onclick="scrollToForm()">
+                            <i class="fas fa-envelope"></i> E-Mail Gönder
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form id="email-form" class="contact-form" onsubmit="sendEmail(event)">
+                    <h3>Bize Mesaj Gönderin</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Adınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="E-Mail Adresiniz" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Mesajınız" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-media">
+                <h3>Sosyal Medya</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61583490312945" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gulziraat1/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://studio.youtube.com/channel/UCFM1rAH_nPZjCRvC8oCPMZw" target="_blank" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Çağrı GÜL - Zirai Drone Hizmetleri. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
