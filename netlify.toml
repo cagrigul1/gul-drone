@@ -1,7 +1,9 @@
-{
-  "build": {
-    "command": "",
-    "functions": "",
-    "publish": "."
-  }
-}
+[build]
+command = ""
+functions = ""
+publish = "."
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
