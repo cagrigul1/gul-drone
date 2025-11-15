@@ -1,0 +1,11 @@
+PLACEHOLDER: Logo file
+
+If you have a raster logo, save it as:
+
+  logo.png
+
+Recommended:
+- Prefer SVG (`logo.svg`) for best scaling; if you provide `logo.png`, put it in the project root.
+- Recommended size: 500x500 px (transparent background) or an exported high-res PNG.
+
+After you replace this placeholder with your actual `logo.png`, tell me "hazır" and I'll commit & push.

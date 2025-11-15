@@ -1,7 +1,7 @@
-# GÜL Zirai Drone - Web Sitesi
+# MG Aero - Web Sitesi
 
 ## Proje Açıklaması
-GÜL Zirai Drone, Çanakkale/Gelibolu bölgesinde tarımsal ilaçlama ve gübreleme hizmeti sunmaktadır. Bu web sitesi şirketin hizmetlerini, iletişim bilgilerini ve drone teknolojisini tanıtmaktadır.
+MG Aero, profesyonel tarımsal ilaçlama ve gübreleme hizmeti sunmaktadır. Bu web sitesi şirketin hizmetlerini, iletişim bilgilerini ve drone teknolojisini tanıtmaktadır.
 
 ## 📋 İçerik
 
@@ -46,7 +46,7 @@ GUL.com/
 ```bash
 git init
 git add .
-git commit -m "GÜL Zirai Drone Website - İlk Yayın"
+git commit -m "MG Aero Website - İlk Yayın"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/gul-drone.git
 git push -u origin main
@@ -90,7 +90,7 @@ git push -u origin main
 ✅ Mobile browsers
 
 ## 📄 Lisans
-© 2025 Çağrı GÜL - Tüm Hakları Saklıdır.
+© 2025 MG Aero - Tüm Hakları Saklıdır.
 
 ---
 

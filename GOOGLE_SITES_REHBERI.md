@@ -23,7 +23,7 @@
 
 ### ADIM 2: Site Şablonu Seç
 1. Şablonlardan "Boş" seçeneğini seç
-2. Site adını gir: **"GÜL Zirai Drone"**
+2. Site adını gir: **"MG Aero"**
 3. "Oluştur" butonuna tıkla
 
 ### ADIM 3: İçeriği Ekle (2 YÖNTEM)

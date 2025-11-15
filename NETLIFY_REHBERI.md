@@ -13,7 +13,7 @@
 2. Sağ üstteki "+" simgesine tıkla
 3. "New repository" seç
 4. Repository adı: `gul-drone` veya `gul-zirai-drone`
-5. Description: "GÜL Zirai Drone - Tarım İlaçlama ve Gübreleme Hizmetleri"
+5. Description: "MG Aero - Tarım İlaçlama ve Gübreleme Hizmetleri"
 6. "Public" seç (herkese açık olsun)
 7. "Create repository" butonuna tıkla
 
